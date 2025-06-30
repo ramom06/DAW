@@ -1,0 +1,7 @@
+CREATE TABLE EMPLEADOS ( 
+	dni CHAR(9) PRIMARY KEY, 
+	nombre VARCHAR(50)		NOT NULL, 
+	apellidos VARCHAR(50)	NOT NULL, 
+	sueldo DECIMAL(6, 2) 	NOT NULL, 
+	CONSTRAINT chk_sueldo CHECK (sueldo <= 2500) 
+);

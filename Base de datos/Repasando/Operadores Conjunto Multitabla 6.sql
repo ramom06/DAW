@@ -1,0 +1,45 @@
+USE empresa;
+
+#Ejercicio 1
+SELECT AVG(E.SALAR) salario_medio, AVG(TIMESTAMPDIFF(YEAR,E.FECNA, CURRENT_DATE())) años_media, 'SI' Hijos
+FROM temple E
+WHERE E.COMIS IS NULL
+UNION
+SELECT AVG(E1.SALAR+COMIS) salario_medio, AVG(TIMESTAMPDIFF(YEAR,E1.FECNA,CURRENT_DATE())) años_media, 'NO' Hijos
+FROM temple E1
+WHERE E1.COMIS IS NOT NULL;
+
+#Ejercicio 2
+SELECT E.NOMEM, E.SALAR/E.NUMHI cociente, E.NUMHI
+FROM temple E
+WHERE E.COMIS IS NULL 
+	AND E.NUMHI > 0
+
+UNION
+
+SELECT E.NOMEM, E.SALAR, 'Sin hijos'
+FROM temple E
+WHERE E.COMIS IS NULL AND E.NUMHI = 0
+ORDER BY NOMEM;
+
+#Ejercicio 3
+SELECT D.NOMDE, 'Ni depende de nadie' Dependencia, '0' nivel_dependencia
+FROM tdepto D 
+WHERE D.DEPDE IS NULL
+
+UNION
+
+SELECT D.NOMDE, DEP.NOMDE, '1' nivel_dependencia
+FROM tdepto D JOIN tdepto DEP ON D.DEPDE = DEP.NUMDE
+WHERE DEP.DEPDE IS NULL
+
+UNION
+
+SELECT D.NOMDE, DEP1.NOMDE, '2' nivel_dependencia
+FROM tdepto D JOIN tdepto DEP ON D.DEPDE = DEP.NUMDE
+	JOIN tdepto DEP1 ON DEP.DEPDE = DEP1.NUMDE
+WHERE DEP1.DEPDE IS NULL
+ORDER BY NOMDE;
+
+
+
