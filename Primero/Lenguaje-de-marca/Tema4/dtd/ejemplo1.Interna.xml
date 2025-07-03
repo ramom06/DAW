@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE aviso [
+    <!ELEMENT aviso (de,para,mensaje)>
+    <!ELEMENT de (#PCDATA)>
+    <!ELEMENT para (#PCDATA)>
+    <!ELEMENT mensaje (#PCDATA)>
+    <!ELEMENT direccion (#PCDATA)>
+    <!-- <!ATTLIST mensaje tipo ID #REQUIRED>-->
+    <!ATTLIST mensaje tipo (facebook|instagram|x) "facebook">
+]>
+<aviso>
+<de>David</de>
+<para>Rosalía</para>
+<mensaje tipo="instagram">Mañana nos vemos en el estudio a las 10.</mensaje>
+</aviso>

@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+table{
+    margin: auto;
+    border-collapse: collapse;
+    margin-top: 5px ;
+}
+
+input{
+    border-radius: 2px;
+}
+
+th,tr{
+    border: solid 2px white;
+    padding: 5px;
+}
+
+td{
+    width: 500px;
+    text-align: left;
+    padding: 10px;
+}
+
+.resultado{
+    display: inline;
+}
+
+
+

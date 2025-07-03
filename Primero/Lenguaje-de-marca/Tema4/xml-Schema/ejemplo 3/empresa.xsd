@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <!-- Declara el elemento principal-->
+    <xs:element name="empresa">
+        <!-- Indica que el elemento principal puede tener atributos y elementos-->
+        <xs:complexType>
+        <!-- Indica el orden de los elementos hijos-->
+            <xs:sequence>
+            <!-- Crea el elemento empleado y con maxOccurs="unbounded" indicia que puede aparecer las veces que quiere-->
+                <xs:element name="empleado" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string"/>
+                            <xs:element name="apellido" type="xs:string"/>
+                            <xs:element name="fechaNacimiento" type="xs:date"/>
+                            <xs:element name="salario" type="xs:decimal"/>
+                            <xs:element name="activo" type="xs:boolean"/>
+                            <xs:element name="horaEntrada" type="xs:time"/>
+                        </xs:sequence>
+                        <!-- Agrega un atributo id al empleado-->
+                        <xs:attribute name="id" type="xs:string"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <!-- Agrega un atributo nombreEmpresa a la empresa-->
+            <xs:attribute name="nombreEmpresa" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

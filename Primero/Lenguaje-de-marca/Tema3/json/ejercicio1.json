@@ -1,0 +1,9 @@
+{
+    "nombreEMP" : "Coca Cola",
+    "datos":{
+        "direccion" : "Calle Falsa 123",
+        "telefono" : 123456789,
+        "email" : "emailfalso@gmail.com"},
+    "numEmpleados" : 100,
+    "deudas" : false
+}

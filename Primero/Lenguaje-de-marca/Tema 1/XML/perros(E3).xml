@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<perro>
+    <raza>
+        <nombre>Perro de aguas español</nombre>
+        <abreviatura>PAE</abreviatura>
+        <origen>Andalucía</origen>
+        <tamanio>
+            <macho>44 a 50 cm</macho>
+            <hembra>40 a 46 cm</hembra>
+        </tamanio>
+        <peso>
+            <macho>19 a 22 kg</macho>
+            <hembra>14 a 19 kg</hembra>
+        </peso>
+        <vida>20 a 30 años</vida>
+        <color>Blanco, marrón, negro</color>
+        <afectivo>Mucho, poco, nada</afectivo>
+    </raza>
+    <raza>
+        <nombre>Pastor alemán</nombre>
+        <abreviatura>PA</abreviatura>
+        <origen>Alemania</origen>
+        <tamanio>
+            <macho>60 a 50 cm</macho>
+            <hembra>40 a 46 cm</hembra>
+        </tamanio>
+        <peso>
+            <macho>30 a 40 kg</macho>
+            <hembra>22 a 32 kg</hembra>
+        </peso>
+        <vida>9 a 13 años</vida>
+        <color>Marrón-Negro</color>
+        <afectivo>Mucho, poco, nada</afectivo>
+    </raza>
+    <raza>
+        <nombre>Marinoir</nombre>
+        <abreviatura></abreviatura>
+        <origen>Bélgica</origen>
+        <tamanio>
+            <macho>61 a 66 cm</macho>
+            <hembra>56 a 61 cm</hembra>
+        </tamanio>
+        <peso>
+            <macho>20 a 25 kg</macho>
+            <hembra>20 a 25 kg</hembra>
+        </peso>
+        <vida>12 a 15 años</vida>
+        <color>Marrón-Negro</color>
+        <afectivo>Mucho, poco, nada</afectivo>
+    </raza>
+</perro>

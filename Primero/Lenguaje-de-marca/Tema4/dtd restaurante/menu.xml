@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE restaurante SYSTEM "restaurante.dtd">
+<restaurante>
+    <menu>
+        <plato>
+            <nombreMenu>Ensalada de tomate</nombreMenu>
+            <categoria>principal</categoria>
+            <precio moneda="EUR">5.00</precio>
+            <ingredientes>
+                <ingrediente>Tomate</ingrediente>
+                <ingrediente>Lechuga</ingrediente>
+                <ingrediente>Atún</ingrediente>
+                <ingrediente>Aceite</ingrediente>
+            </ingredientes>
+        </plato>
+        <plato>
+            <nombreMenu>Hamburguesa</nombreMenu>
+            <categoria>principal</categoria>
+            <precio moneda="USD">18.00</precio>
+            <ingredientes>
+                <ingrediente>Tomate</ingrediente>
+                <ingrediente>Lechuga</ingrediente>
+                <ingrediente>Carne</ingrediente>
+                <ingrediente>Queso</ingrediente>
+            </ingredientes>
+        </plato>
+    </menu>
+    <recetas>
+        <receta tipo-comensales="adultos">
+            <nombreReceta>Ensalada de tomate</nombreReceta>
+            <ingredientesReceta>
+                <ingredienteReceta cantidad="2">
+                    <nombre>Tomate</nombre>
+                </ingredienteReceta>
+                <ingredienteReceta cantidad="1">
+                    <nombre>Atún</nombre>
+                </ingredienteReceta>
+                <ingredienteReceta cantidad="2">
+                    <nombre>Lechuga</nombre>
+                </ingredienteReceta>
+            </ingredientesReceta>
+            <preparacion>
+                <pasos>
+                    <paso>1. Cortar los tomates en rodajas</paso>
+                    <paso>2. Lavar la lechuga</paso>
+                    <paso>3. Mezclar los ingredientes</paso>
+                    <paso>4. Añadir el atún</paso>
+                </pasos>
+            </preparacion>
+        </receta>
+    </recetas>
+    <clientes>
+        <cliente>
+            <nombreCliente>Pepe</nombreCliente>
+            <correo-electronico>hola@gmail.com</correo-electronico>
+            <telefono>123456789</telefono>
+            <pedidos>
+                <pedido>
+                    <fecha>26-3-2025</fecha>
+                    <platoPedido>Ensalada de tomate</platoPedido>
+                    <recetaPedido>Ensalada de tomate</recetaPedido>
+                </pedido>
+            </pedidos>
+        </cliente>
+    </clientes>
+</restaurante>

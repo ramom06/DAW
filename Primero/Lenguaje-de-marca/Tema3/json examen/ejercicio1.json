@@ -1,0 +1,51 @@
+{
+    "instituto":[
+        {
+            "nombre":"Desarrollo de Aplicaciones Web",
+            "nivel":"Grado Superior",
+            "Aulas":[
+                {
+                    "id":101,
+                    "capacidad":30,
+                    "equipamiento":[            
+                        "Ordenadores",
+                        "Proyector",
+                        "Pizarra"
+                    ]
+                },
+                {
+                    "id":102,
+                    "capacidad":25,
+                    "equipamiento":[            
+                        "Ordenadores",
+                        "Pizarra"
+                    ]
+                }
+            ]
+        },
+        {
+            "nombre":"Redes y sistemas",
+            "nivel":"Grado Superior",
+            "Aulas":[
+                {
+                    "id":201,
+                    "capacidad":20,
+                    "equipamiento":[            
+                        "Switches",
+                        "Routers",
+                        "Pizarra"
+                    ]
+                },
+                {
+                    "id":202,
+                    "capacidad":15,
+                    "equipamiento":[            
+                        "Ordenadores",
+                        "Proyector",
+                        "Switches"
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="catalogo">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="serie" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:all>
+                            <xs:element name="titulo" type="xs:string"/>
+                            <xs:element name="creador" type="xs:string"/>
+                            <xs:element name="genero" type="xs:string"/>
+                            <xs:element name="temporadas" type="xs:integer" minOccurs="1"/>
+                            <xs:element name="disponibleEnStreaming" type="xs:boolean" default="false"/>
+                            <xs:element name="clasificacion" type="xs:string"/>
+                        </xs:all>
+                        <xs:attribute name="id" type="xs:integer" use="required"/>
+                        <xs:attribute name="year" type="xs:integer"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

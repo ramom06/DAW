@@ -1,0 +1,28 @@
+{
+    "instituto":[
+        {
+            "nombre":"Lenguaje de marcas",
+            "curso":1,
+            "alumnado":[
+                    {
+                        "nombre":"Pepe",
+                        "nota": 5
+                    },
+                    {
+                        "nombre":"Ana",
+                        "nota": 8
+                    }
+                ]
+        },
+        {
+            "nombre":"Base de datos",
+            "curso":1,
+            "alumnado":[
+                {
+                    "nombre":"Pepe",
+                    "nota": 9
+                }
+                ]
+        }
+    ]
+}

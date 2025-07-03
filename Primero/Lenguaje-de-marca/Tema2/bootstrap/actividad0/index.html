@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <!-- Enlace al archivo CSS de Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="fs-1 p-4 text-primary border border-4">Página Bootstrap</header>
+      <nav class="nav m-1">
+        <a class="nav-link disabled border border-2" aria-current="page" href="#">Inicio</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Plataformas</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Netflix</a></li>
+            <li><a class="dropdown-item" href="#">Amazon Prime</a></li>
+            <li><a class="dropdown-item" href="#">Disney +</a></li>
+          </ul>
+        </li>
+        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link disabled" aria-disabled="true">Filmografía</a>
+      </nav>
+      <aside>
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./assest/img/img/banner-949931_1280.webp" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+              <img src="./assest/img/img/106363.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </aside>
+      <section>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Título</th>
+              <th scope="col">Director</th>
+              <th scope="col">Administrador</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Titanic</td>
+              <td>James cameron</td>
+              <td>
+                  <div class="d-grid gap-2 d-md-block">
+                    <button class="btn btn-primary" type="button">Actualizar</button>
+                    <button class="btn btn-secondary" type="button">Insertar</button>
+                    <button class="btn btn-success" type="button">borrar</button>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>La llegada</td>
+              <td>Thronton</td>
+              <td>
+                <div class="d-grid gap-2 d-md-block">
+                  <button class="btn btn-primary" type="button">Actualizar</button>
+                  <button class="btn btn-secondary" type="button">Insertar</button>
+                  <button class="btn btn-success" type="button">borrar</button>
+              </div>
+            </td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Larry the Bird</td>
+              <td>Denis Villeneuve</td>
+              <td>
+                <div class="d-grid gap-2 d-md-block">
+                  <button class="btn btn-primary" type="button">Actualizar</button>
+                  <button class="btn btn-secondary" type="button">Insertar</button>
+                  <button class="btn btn-success" type="button">borrar</button>
+              </div>
+            </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <br><br><br>
+      <div class="container mt-5"> 
+        <div class="row"> 
+          <div class="col-md-4"> 
+            <div class="card"> 
+              <img src="./assest/img/img/cartel2.jpeg" class="card-img-top" alt="Imagen 1"> 
+              <div class="card-body"> 
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card´s content.</p> 
+              </div> 
+            </div> 
+          </div> 
+          <div class="col-md-4"> 
+            <div class="card"> 
+              <img src="./assest/img/img/cartel1.jpeg" class="card-img-top" alt="Imagen 2"> 
+              <div class="card-body"> 
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card´s content.</p> </div> 
+              </div> 
+            </div> 
+            <div class="col-md-4"> 
+              <div class="card"> 
+                <img src="./assest/img/img/cartel2.jpeg" class="card-img-top" alt="Imagen 3"> 
+                <div class="card-body"> 
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card´s content.</p> 
+                </div> 
+              </div> 
+            </div> 
+          </div> 
+        </div>
+    <!-- Enlace a los archivos JavaScript de Bootstrap 5 y Popper en un solo archivo
+    (bootstrap.bundle.min.js) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

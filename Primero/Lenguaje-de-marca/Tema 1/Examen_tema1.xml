@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pedidos xmlns:cli="http://www.janderenterprises/com/client" xmlns:pe="http://www.iesbelen.org/pedido),">
+    <pe:pedido numero_pedido="65412">
+        <pe:fecha>22/10/2015</pe:fecha>
+        <pe:articulos>
+            <pe:articulo>
+                <pe:referencia>22321-W</pe:referencia>
+                <pe:nombre>Cortadora de cesped</pe:nombre>
+                <pe:cantidad>1</pe:cantidad>
+                <pe:precio_unitario unidad="€">423.65</pe:precio_unitario>
+            </pe:articulo>
+            <pe:articulo>
+                <pe:referencia>73623-A</pe:referencia>
+                <pe:nombre>Monitor de bebé</pe:nombre>
+                <pe:cantidad>2</pe:cantidad>
+                <pe:precio_unitario unidad="€">89.95</pe:precio_unitario>
+            </pe:articulo>
+        </pe:articulos>
+        <pe:comentarios>
+            <pe:comentario>Es imprescindible la entrega del artículo en horario de tarde</pe:comentario>
+            <pe:comentario>En la entrada del artículo llamar a la puerta, no funicona el tímbre inferior</pe:comentario>
+        </pe:comentarios>
+        <cli:ordenante>
+            <cli:nombre>Alicia</cli:nombre>
+            <cli:apellidos>Lopez</cli:apellidos>
+            <cli:direccion_entrega>
+                <cli:calle>Avenida del condestable</cli:calle>
+                <cli:numero_vivienda>72</cli:numero_vivienda>
+                <cli:provincia>Málaga</cli:provincia>
+                <cli:codigo_postal>29211</cli:codigo_postal>
+                <cli:poblacion>Almogía</cli:poblacion>
+            </cli:direccion_entrega>
+        </cli:ordenante>
+    </pe:pedido>
+</pedidos>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="pelicula">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:choice>
+                    <xs:element name="tituloes" type="xs:string"/>
+                    <xs:element name="titulo" type="xs:string"/>
+                </xs:choice>
+                <xs:element name="anio" type="xs:gYear"/>
+                    <xs:element name="director" type="xs:string"/>
+                    <xs:element name="genero" type="xs:string"/>
+                    <xs:element name="duracion" type="xs:string"/>
+                    <xs:element name="disponibleEnStreaming" type="xs:boolean"/>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:integer" use="required"></xs:attribute>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

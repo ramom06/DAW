@@ -1,0 +1,11 @@
+    <!-- ? Para que no sea obligatoria-->
+    <!ELEMENT aviso (de,(para|cc)+,mensajes,direccion?)>
+    <!ELEMENT de (#PCDATA)>
+    <!ELEMENT para (#PCDATA)>
+    <!ELEMENT cc (#PCDATA)>
+    <!-- * Para los que quieras, + uno o más-->
+    <!ELEMENT mensajes (mensaje*)>
+    <!ELEMENT mensaje (#PCDATA)>
+    <!ELEMENT direccion (#PCDATA)>
+    <!-- <!ATTLIST mensaje tipo ID #REQUIRED>-->
+    <!ATTLIST mensaje tipo (facebook|instagram|x) "facebook">

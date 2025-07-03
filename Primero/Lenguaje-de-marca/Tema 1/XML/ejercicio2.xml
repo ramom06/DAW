@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<biblioteca>
+    <libro>
+        <titulo>El libro de la selva</titulo>
+        <autor>Antonio Recio</autor>
+        <publicacion>1861</publicacion>
+        <genero>
+            <ficcion>Si</ficcion>
+            <no_ficcion>No</no_ficcion>
+            <historia>No</historia>
+            <ciencia>No</ciencia>
+            <gastronomia>No</gastronomia>
+        </genero>
+        <sinosis></sinosis>
+    </libro>
+    <libro>
+        <titulo>Cocina con arguiñano</titulo>
+        <autor>Arguiñano</autor>
+        <publicacion>2014</publicacion>
+        <genero>
+            <ficcion>No</ficcion>
+            <no_ficcion>No</no_ficcion>
+            <historia>No</historia>
+            <ciencia>No</ciencia>
+            <gastronomia>Si</gastronomia>
+        </genero>
+        <sinosis></sinosis>
+    </libro>
+    <libro>
+        <titulo>La roma imperial</titulo>
+        <autor>Alberto mancera</autor>
+        <publicacion>200514</publicacion>
+        <genero>
+            <ficcion>No</ficcion>
+            <no_ficcion>No</no_ficcion>
+            <historia>Si</historia>
+            <ciencia>No</ciencia>
+            <gastronomia>No</gastronomia>
+        </genero>
+        <sinosis></sinosis>
+    </libro>
+</biblioteca>

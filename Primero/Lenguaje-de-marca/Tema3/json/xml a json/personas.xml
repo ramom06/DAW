@@ -1,0 +1,10 @@
+<personas>
+    <persona sexo="M">
+        <nombre>Pepe</nombre>
+        <edad>46</edad>
+    </persona>
+    <persona sexo="F">
+        <nombre>María</nombre>
+        <edad>32</edad>
+    </persona>
+</personas>

@@ -1,0 +1,26 @@
+<instituto>
+    <modulo>
+        <nombre>Lenguaje de marcas</nombre>
+        <curso>1</curso>
+        <alumnado>
+            <estudiante>
+                <nombre>Pepe</nombre>
+                <nota>5.5</nota>
+            </estudiante>
+            <estudiante>
+                <nombre>Pepe</nombre>
+                <nota>5.5</nota>
+            </estudiante>
+        </alumnado>
+    </modulo>
+    <modulo>
+        <nombre>Base de datos</nombre>
+        <curso>1</curso>
+        <alumnado>
+            <estudiante>
+                <nombre>Pepe</nombre>
+                <nota>9.5</nota>
+            </estudiante>
+        </alumnado>
+    </modulo>
+</instituto>

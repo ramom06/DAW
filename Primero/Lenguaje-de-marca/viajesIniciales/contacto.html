@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assests/css/stylecontacto.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="menu">Contacta con nosotros</h1>
+    <nav>
+        <ul>
+            <li><a class="enlaceMenu" href="./index.html">Página principal</a></li>
+            <li><a class="enlaceMenu" href="./destino1.html" target="_blank">Japón</a></li>
+            <li><a class="enlaceMenu" href="./contacto.html">Página contacto</a></li>
+        </ul>
+    </nav>
+    <form method="post" name="fomulario1" class="form1">
+        <fieldset>
+            <h1 class="fomrulario">Formulario</h1>
+            <hr>
+            <div class="rellenar">
+                <label class="labels" for="Email">Email:</label>
+                <input required type="text" id="Email" name="Email" placeholder="Introduce Email">
+            </div>
+            <div class="rellenar">
+                <label class="labels" for="Contraseña">Contraseña: </label>
+                <input type="password" id="Contraseña" name="Contraseña" placeholder="Introduce Contraseña">
+            </div>
+            <div class="rellenar">
+                <label class="labels" for="Nombre">Nombre: </label>
+                <input required  size="30" type="text" id="Nombre" name="Nombre">
+            </div>
+            <div class="rellenar">
+                <label class="labels" for="Color">color preferido: </label>
+                <input type="color" id="Color" name="Color" width="120%" height="30%">
+            </div>
+            <div class="rellenar">
+                <label class="labels" for="Web">Web: </label>
+                <input type="search" id="Web" name="Web" size="80">
+            </div>
+            <div class="rellenar">
+                <label class="labels" for="Telefono">Telefono: </label>
+                <input type="tel" id="Telefono" name="Telefono" size="80">
+            </div>
+            <div class="rellenar">
+                <label class="labels" for="nacimiento">Fecha de nacimiento: </label>
+                <input type="date" id="nacimiento" name="nacimiento">
+            </div>
+            <div class="rellenar">
+                <label class="labels" for="Transporte">Transporte</label>
+                <input type="checkbox" name="Transporte" id="Transporte"> 
+                <label for="Transporte">Coche</label>
+                <input type="checkbox" name="Transporte" id="Transporte"> 
+                <label for="Transporte">Barco</label>
+                <input type="checkbox" name="Transporte" id="Transporte" checked>                 
+                <label for="Transporte">Tren</label>
+                <input type="checkbox" name="Transporte" id="Transporte">                 
+                <label for="Transporte">Avión</label>
+            </div>
+            <div class="contenedor">
+                <div class="enLinea">
+                    <label class="labels"for="Transporte">Opción a guía</label>
+                    <input type="radio" name="Transporte" id="Transporte">
+                    <label for="Transporte">Si</label>
+                    <input type="radio" name="Transporte" id="Transporte" checked> 
+                    <label for="Transporte">No</label>
+                </div>
+                <div class="enLinea">
+                    <label class="formaPago" for="pago">Forma de pago</label>
+                    <select name="pago" id="pago">
+                        <option>Al contado</option>
+                        <option>Mastercard</option>
+                        <option>Visa</option>
+                    </select>
+                </div> 
+            </div>
+            <br><br><br>
+                <div class="botones">
+                    <input class="enviar" type="submit" value="Dame de alta">
+                    <input class="borrar" type="reset" value="Borrar!">
+                </div>
+        </fieldset>
+</body>
+</html>

@@ -1,0 +1,57 @@
+body{
+    color: wheat;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.contenedor{
+    display: grid;
+
+    /* Espacio entre cajas*/
+    gap: 15px;
+    margin: auto;
+
+    /*Crea 2 columnas y les da la anchura*/
+    grid-template-columns: 1fr 1fr;
+    padding: 5px;
+    width: 80%;
+    border: 5px solid orange;
+}
+
+.cajas{
+    text-align: center;
+    padding: 5px;
+    border: solid 1px black;
+}
+
+.roja{
+    background-color: red;
+    /*El número de columnas que ocupa (span 2 para decir 2 espacios y 3 para decir que termina antes de la 3*/
+    grid-area: 1 / 1 / 2 / 3;
+}
+
+.verde{
+    background-color: green;
+}
+
+.azul1{
+    background-color: blue;
+}
+
+.azul2{
+    background-color: aqua;
+}
+
+.amarillo{
+    background-color: orange;
+    grid-area: 2 / 2 / 4 / 3;
+}
+
+.verde_claro{
+    background-color: greenyellow;
+    grid-area: 4/ 2 / 4/ 3;
+}
+
+.negro{
+    background-color: black;
+    grid-area: 5/ 1 / 5 / 3;
+}
+

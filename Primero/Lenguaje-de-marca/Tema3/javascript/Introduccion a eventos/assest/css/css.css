@@ -1,0 +1,41 @@
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    width: 95%;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+}
+
+.container div{
+    padding: 20px;
+    text-align: center;
+    background-color: lightblue;
+    width: 550px;
+    height: 350px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container div img{
+    width: 40%;
+}
+.a1{
+    grid-column: 1/2;
+}
+
+.a2{
+    grid-column: 2/3;
+}
+
+.a3{
+    grid-column: 3/4;
+}
+
+

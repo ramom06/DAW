@@ -1,0 +1,193 @@
+body{
+    background-color: lightslategray;
+    font-family:Arial, Helvetica, sans-serif;
+    height: auto;
+}
+
+.form1{
+    background-color: darkblue;
+    width: 30%;
+<<<<<<< HEAD
+    color: white;
+    font-weight: bold;
+    margin: 0px auto;
+=======
+<<<<<<< HEAD
+    color: white;
+    font-weight: bold;
+    margin: 0px auto;
+=======
+    height: auto;
+    color: white;
+    font-weight: bold;
+    margin: 0px auto 0px auto;
+>>>>>>> 3ebc82d5a383136dfb5cb826e3c874e384c3dafe
+>>>>>>> a99fa452faf3fd1323cbdbb08836d7ae025213c6
+    padding: 5px;
+}
+.form1 fieldset{
+    padding: 20px;
+    margin: 10px;
+}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> a99fa452faf3fd1323cbdbb08836d7ae025213c6
+.form1 .rellenar, .rellenar2{
+    margin: 15px 0;
+    clear: both;
+}
+.form1 .rellenar .labels{
+    display: inline;
+    clear: none;
+    width: 25%;
+    float: left;
+}
+
+.form1 .rellenar2{
+    margin-right: 15px;
+}
+
+<<<<<<< HEAD
+=======
+=======
+
+.form1 .rellenar, .rellenar2{
+    margin: 10px 0;
+    clear: both;
+}
+
+.form1 .rellenar label{
+    display: inline;
+    clear: none;
+    width: 20%;
+    float: left;
+}
+
+>>>>>>> 3ebc82d5a383136dfb5cb826e3c874e384c3dafe
+>>>>>>> a99fa452faf3fd1323cbdbb08836d7ae025213c6
+.form2{
+    background-color: lightcoral;
+    border: 1px solid black;
+    width: 40%;
+    color: white;
+    font-weight: bold;
+    margin: 30px auto 0px auto;
+    padding: 20px;
+}
+
+.form2 h1{
+    font-size: 120%;
+    text-align: center;
+    background-color: orange;
+    color: darkslateblue;
+    padding: 10px;
+}
+
+.form2 .input label{
+    clear: both;
+    margin: 15px 40px 0 15px;
+    float: left;
+    text-align: center;    
+    width: 20%;
+    background-color: darkred;
+    padding: 3px;
+}
+
+.form2 .input input{
+    clear: both;
+    margin: 15px 0 0 0;
+    width: 60%;
+    padding: 3px;
+}
+
+.form2 .contenedor{
+    display: block;
+    clear: both;
+    margin: 15px 0 0 0;
+    width: 100%;
+}
+
+.form2 .contenedor .enLinea p, .formaPago{
+    display: block;
+<<<<<<< HEAD
+    background-color: darkred;
+    width: 90%;
+=======
+<<<<<<< HEAD
+    background-color: darkred;
+    width: 90%;
+=======
+    clear: both;
+    background-color: darkred;
+    width: 80%;
+>>>>>>> 3ebc82d5a383136dfb5cb826e3c874e384c3dafe
+>>>>>>> a99fa452faf3fd1323cbdbb08836d7ae025213c6
+    padding: 3px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.form2 .contenedor .enLinea .formaPago{
+    width: 110%;
+<<<<<<< HEAD
+    margin-top: 15px;
+=======
+<<<<<<< HEAD
+    margin-top: 15px;
+=======
+>>>>>>> 3ebc82d5a383136dfb5cb826e3c874e384c3dafe
+>>>>>>> a99fa452faf3fd1323cbdbb08836d7ae025213c6
+}
+
+.form2 .contenedor .enLinea{
+    display: inline;
+    clear: none;
+    width: 30%;
+    float: left;
+    padding: 10px;
+}
+
+.form2 .contenedor .especiales{
+    display: block;
+    clear: both;
+    margin: 14px 0 0 0;
+}
+
+.form2 .contenedor .especiales label{
+    display: block;
+    background-color: darkred;
+    width: 100%;
+    padding: 3px;
+    text-align: center;
+}
+
+.form2 .contenedor .especiales textarea{
+    display: block;
+    margin: 20px auto 80px auto;
+}
+
+.form2 .contenedor .enviar{
+    float: left;
+    margin-top: -40px;
+    margin-left: 20%;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3ebc82d5a383136dfb5cb826e3c874e384c3dafe
+>>>>>>> a99fa452faf3fd1323cbdbb08836d7ae025213c6
+}
+
+.form2 .contenedor .borrar{
+    float: right;
+    margin-top: -40px;
+    margin-right: 20%;
+}
+
+
+
+
+
+

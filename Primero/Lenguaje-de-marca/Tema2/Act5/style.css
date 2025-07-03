@@ -1,0 +1,71 @@
+body{
+    background-color: lightcyan;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: black;
+    width: 90%;
+    margin: auto;
+}
+
+.logo{ 
+    margin-top: 10px;
+}
+
+h1{
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.entexto1{
+    float: right;
+    margin-left: 10px;
+}
+
+.entexto2{
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+p{
+    text-align: justify;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: darkblue;
+    text-align: right;
+    border-bottom: solid 2px;
+}
+
+.amarillo{
+    background-color: rgb(255, 255, 141);
+    width: 40%;
+    border: dashed black;
+    margin-left: 5%;
+    color: blue;
+}
+
+.blanco{
+    background-color: white;
+    font-size: 24px;
+    padding: 1px;
+}
+
+.blanco p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.blanco p .rojo{
+    color: red;
+}
+
+.fotos{
+    text-align: center;
+}

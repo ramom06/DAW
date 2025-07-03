@@ -1,0 +1,29 @@
+body{
+    background-color: grey;
+}
+
+.calculadora-container{
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    text-align: left;
+    width: 20%;
+    height: auto;
+    border-radius: 4px;
+}
+
+h1{
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.btnCalc{
+    padding: 5px;
+    background-color: green;
+    border: 1px solid green;
+    color: white;
+}
+
+.btnCalc{
+    border-radius: 3px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="calculadora-container">
+        <h1>Calculadora</h1>
+        <form>
+            <br>
+            <div class="capaN1" >
+                <label for="inputN1">Número 1:</label>
+                <input type="text" class="inputN1">
+            </div>
+            <br>
+            <div class="capaN2" >
+                <label for="inputN2">Número 2:</label>
+                <input type="text" class="inputN2">
+            </div>
+            <br>
+            <div class="capaOP" >
+                <label for="selectOP">Operación</label>
+                <select class="selectOP">
+                    <option value="1">Sumar</option>
+                    <option value="2">Restar</option>
+                    <option value="3">Multiplicar</option>
+                    <option value="4">Dividir</option>
+                </select>
+            </div>
+            <br>
+            <div class="capaResultado" >
+                <label for="inputResultado">Resultado:</label>
+                <input type="text" class="inputResultado">
+            </div>
+        </form>
+        <br>
+        <button type="button" class="btnCalc">Calcular</button>
+        <script type="text/javascript" src="./assets/codigo.js"></script>
+    </div>
+</body>
+</html>

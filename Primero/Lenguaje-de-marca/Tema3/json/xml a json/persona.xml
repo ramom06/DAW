@@ -1,0 +1,14 @@
+<persona>
+    <nombre>Pepe</nombre>
+    <apellidos>López</apellidos>
+    <edad>22</edad>
+    <mayorEdad>true</mayorEdad>
+    <redSocial>
+        <red>Facebook</red>
+        <red>Instragram</red>
+    </redSocial>
+    <tarjetas>
+        <tarjeta>Visa</tarjeta>
+        <tarjeta>Mastercard</tarjeta>
+    </tarjetas>
+</persona>

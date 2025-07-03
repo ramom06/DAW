@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE alumnos SYSTEM 'ejercicio3.dtd'>
+<alumnos>
+    <alumno num_alumno="A12" altura="187" sexo="hombre">
+        <nombre>Juan</nombre>
+        <apellido>Fernandez</apellido>
+        <domicilio>C/Cuarteles, 12</domicilio>
+        <telefono propietario="propio">954 435 345</telefono>
+        <telefono propietario="padre">954 435 145</telefono>
+        <perteneceEquiDeportivo>Futbol</perteneceEquiDeportivo>
+        <aficiones>
+            <aficion>Cocinar</aficion>
+            <aficion>Jugar al billar</aficion>
+        </aficiones>
+        <comentarios>
+            <comentario>Hola me llamo Juan</comentario>
+            <comentario>Encantado</comentario>
+        </comentarios>
+        <evaluaciones>
+            <evaluacion numeroEvaluacion="segunda">7</evaluacion>
+        </evaluaciones>
+    </alumno>
+    <alumno num_alumno="A45" sexo="mujer">
+        <nombre>Lydia</nombre>
+        <apellido>Diaz</apellido>
+        <domicilio>C/Herores de Sostoa 112</domicilio>
+        <telefono propietario="madre">123 456 789</telefono>
+        <evaluaciones></evaluaciones>
+    </alumno>
+    <alumno num_alumno="A9" sexo="mujer">
+        <nombre>Raul</nombre>
+        <apellido>Rodriguez</apellido>
+        <domicilio>C/Herores de Sostoa 1</domicilio>
+        <telefono propietario="propio">123 456 789</telefono>
+        <comentarios>
+            <comentario>Hola soy raul y me encanta copilot</comentario>
+            <comentario>Hola soy raul y me encanta faltar</comentario>
+        </comentarios>
+        <evaluaciones>
+            <evaluacion numeroEvaluacion="tercera">10</evaluacion>
+        </evaluaciones>
+    </alumno>
+</alumnos>

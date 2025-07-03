@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="producto.xsl" type="text/xsl"?>
+    <productos>
+        <producto tipo="electronica">
+            <nombre>Ratón inalámbrico</nombre>
+            <precio>25</precio>
+        </producto>
+        <producto tipo="ropa">
+            <nombre>Sudadera</nombre>
+            <precio>45</precio>
+        </producto>
+        <producto tipo="electronica">
+            <nombre>Teclado mecánico</nombre>
+            <precio>75</precio>
+        </producto>
+    </productos>

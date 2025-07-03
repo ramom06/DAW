@@ -1,0 +1,7 @@
+<!ELEMENT cartelera (pelicula+)>
+<!ELEMENT pelicula (titulo, director,anyo)>
+<!ATTLIST pelicula plataforma CDATA #IMPLIED>
+<!ELEMENT titulo (#PCDATA)>
+<!ATTLIST titulo idioma CDATA #IMPLIED>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT anyo (#PCDATA)>

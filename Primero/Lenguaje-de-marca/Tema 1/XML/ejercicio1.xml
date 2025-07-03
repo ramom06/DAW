@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<paises>
+    <españa>
+        <gastronomia> Cocina de origen que oscila entre el estilo rural y el costero, y que representa una diversidad fruto de muchas culturas, así como de paisajes y climas.​</gastronomia>    
+        <poblacion>48.345.223</poblacion>
+        <comunidades>17</comunidades>
+        <capital>Madrid</capital>
+        <superficie>506.030 km²</superficie>
+    </españa>
+    <francia>
+        <gastronomia>Caracterizada por su variedad, fruto de la diversidad regional francesa, tanto cultural como de materias primas, pero también por su refinamiento</gastronomia>
+        <poblacion>67.970.000</poblacion>
+        <comunidades>18</comunidades>
+        <capital>Paris</capital>
+        <superficie>551.695</superficie>
+    </francia>
+    <italia>
+        <gastronomia>son los alimentos, técnicas, platos y demás tradición culinaria de Italia, la cual es practicada por sus habitantes y refleja la riqueza cultural de sus regiones y de su historia</gastronomia>
+        <poblacion>58.940.000</poblacion>
+        <comunidades>20</comunidades>
+        <capital>Roma</capital>
+        <superficie>302.073 km²</superficie>
+    </italia>
+    <alemania>
+        <gastronomia> varía mucho de una región a otra del territorio y está muy influenciada por el entorno cultural y social, por ejemplo, las regiones del sur de Baviera y Suabia comparten muchos estilos y platos con los vecinos suizos y austriacos</gastronomia>
+        <poblacion>83.800.000</poblacion>
+        <comunidades>16</comunidades>
+        <capital>berlin</capital>
+        <superficie>357.592 km²</superficie>
+    </alemania>
+</paises>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<catalogo>
+    <pelicula>
+        <titulo>Gladiator</titulo>
+        <director>Ridley Scott</director>
+        <genero>accion</genero>
+        <duración>150</duración>
+        <reparto>
+            <actor>Russel Crowe</actor>
+            <actor>Joaquin Phoenix</actor>
+            <actor>Connie Nietsen</actor>
+        </reparto>
+        <fecha_estreno>
+            <dia>1</dia>
+            <mes>1</mes>
+            <anyo>2000</anyo>
+        </fecha_estreno>
+    </pelicula>
+    <pelicula genero="ciencia_ficcion" duracion="210">
+        <titulo>Gladiator</titulo>
+        <director>Ridley Scott</director>
+        <reparto>
+            <actor>Russel Crowe</actor>
+            <actor>Joaquin Phoenix</actor>
+            <actor>Connie Nietsen</actor>
+        </reparto>
+        <fecha_estreno>
+            <dia>1</dia>
+            <mes>1</mes>
+            <anyo>2000</anyo>
+        </fecha_estreno>
+    </pelicula>
+</catalogo>

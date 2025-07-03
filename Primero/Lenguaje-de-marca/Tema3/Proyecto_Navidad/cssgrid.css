@@ -1,0 +1,133 @@
+body {
+    margin: auto;
+    background-color: lightslategray;
+}
+
+#container {
+    display: grid;
+    /* Grid de 2x3 */
+    /* 2 columnas: 1ª de 200px, 2ª ocupa el espacio restante */
+    grid-template-columns: 1fr  3fr;
+    /*Espaciado*/
+    column-gap: 20px;
+    row-gap: 5px;
+    /*gap: 10px 20px*/ /*se pueden sustituir por esta linea */
+}
+
+header { 	
+    grid-column: 1/3;
+    color: green; 
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+nav { 
+    grid-column: 1/3; 
+    background-color: #333; 
+    color: white; 
+} 
+
+nav ul { 
+    list-style-type: none; 
+    padding: 0px;
+    margin: 0px; 
+    margin-right: 400px;
+    text-align: center;
+} 
+
+nav ul a { 
+    display: inline-block; 
+    color: white;
+    border-left: 1px solid white; 
+    padding: 10px 20px; 
+    margin: 0; 
+    text-decoration: none;
+}
+
+.inicio{
+    border-right: 1px solid white;
+}
+
+article{
+    background-color: white; 
+    padding: 5px;
+}
+
+.a1{
+    grid-row: 3/5; 
+}
+
+.a3{
+    grid-column: 1/2;
+}
+.a1, .a3{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.a1 h2, form{
+    text-align: center;
+}
+
+.gris{
+    background-color: lightgray;
+    width: 80%;
+    margin: auto;
+    margin-top: -10px;
+    color: darkred;
+}
+
+button{
+    background-color: green;
+    width: 100px;
+    color: white;
+}
+
+.verde{
+    color: green;
+}
+
+p{
+    padding: 0px;
+    margin: 0px;
+}
+
+.a2 { 	
+    grid-row:  3/4; 
+}
+
+.a2 .front-end, .back-end{
+    border-bottom: 4px solid lightgray;
+    text-align: center;
+}
+
+.a2 .back-end{
+    color: darkred;
+}
+
+.bajoLinea{
+    margin-top: -15px;
+    color: lightgray;
+    font-size: small;
+}
+
+.bajoParrafo{
+    color: lightgray;
+    font-size: small;
+}
+
+.a2 .verde{
+    text-decoration: underline;
+}
+.a2{
+    margin-right: 80px;
+}
+
+footer { 
+    grid-column: 1/3;
+    padding: 8px;
+    text-align: center;
+    background-color: black; 
+    color: white;
+    margin-top: 70px;
+}

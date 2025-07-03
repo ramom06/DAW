@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT sudokus (sudoku*)>
+<!ELEMENT sudoku (dato*)>
+<!ELEMENT dato (#PCDATA)>
+<!ATTLIST sudoku tamaño CDATA #REQUIRED>
+<!ATTLIST sudoku solucion CDATA #IMPLIED>
+<!ATTLIST dato celda CDATA #REQUIRED
+        valor CDATA #REQUIRED>

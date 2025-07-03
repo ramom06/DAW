@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concesionario SYSTEM "concesionario.dtd">
+<concesionario>
+    <coches>
+        <marca>SEAT</marca>
+        <modelo>ibiza</modelo>
+        <plazas num_puertas="5">5</plazas>
+    </coches>
+    <coches>
+        <cod_coche>1523</cod_coche>
+        <modelo>mustang</modelo>
+    </coches>
+    <coches>
+        <modelo>nose</modelo>
+        <cv></cv>
+        <plazas num_puertas="3">2</plazas>
+    </coches>
+    <coches>
+        <marca>audi</marca>
+        <modelo>A6</modelo>
+        <plazas num_puertas="5">5</plazas>
+    </coches>
+    <coches>
+    <cod_coche>234</cod_coche>
+    <marca>peugot</marca>
+    <modelo>129</modelo>
+    </coches>
+
+</concesionario>

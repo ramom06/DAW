@@ -1,0 +1,20 @@
+{
+    "numEst":{
+        "Primaria" : 2,
+        "Secundaria" : 3,
+        "FormProf":{
+            "FPB" : 1,
+            "GM" : 2,
+            "GS" : 1
+        },
+        "numEstBach" : 10
+    },
+    "instituto":{
+        "nombre" : "IES El Palo",
+        "ciudad":{
+            "nomCiudad" : "Málaga",
+            "provCiudad" : "Málaga",
+            "codPostal" : 29017,
+            "DistCapital" : 5}
+        }
+}

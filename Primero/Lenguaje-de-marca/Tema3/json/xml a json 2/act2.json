@@ -1,0 +1,28 @@
+{
+    "productos":[
+        {
+            "codigo":1,
+            "categoria":"Electronicos",
+            "nombre":"televisor",
+            "precio":599.99,
+            "fechaIngreso":"2023-07-15",
+            "stock":10
+        },
+        {
+            "codigo":2,
+            "categoria":"Ropa",
+            "nombre":"Camiseta",
+            "precio":29.99,
+            "fechaIngreso":"2023-07-16",
+            "stock":50
+        },
+        {
+            "codigo":3,
+            "categoria":"Hogar",
+            "nombre":"Lampara",
+            "precio":39.99,
+            "fechaIngreso":"2023-07-17",
+            "stock":20
+        }
+    ]
+}

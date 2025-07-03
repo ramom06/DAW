@@ -1,0 +1,75 @@
+body{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0%;
+    background-color: black;
+}
+
+.contenedor{
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.cajas{
+    text-align: center;
+    padding: 5px;
+    height: 200px;
+}
+
+.letraAzul{
+    color: aqua
+}
+
+.segunda img, .quinta img, .sexta img, .octava img, .decima img{
+    width: 40%;
+}
+
+.tercera, .cuarta, .septima, .ultima, .novena{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+
+.primera{
+    background-color: black;    
+    grid-column: 1 / 4;
+}
+
+.segunda, .quinta{
+    background-color: blue;
+}
+
+.tercera{
+    background-image: url(../imagenes/fondo1.jpg);
+}
+
+.cuarta{
+    background-image: url(../imagenes/fondo2.jpg);
+}
+
+.septima{
+    background-image: url(../imagenes/fondo3.jpg);
+}
+
+.sexta{
+    background-color: aquamarine;
+}
+
+.octava{
+    background-color: orange;
+}
+
+.novena{
+    grid-column: 1 / 3;
+    background-image: url(../imagenes/fondo4.jpg);
+}
+
+.decima{
+    background-color: darkblue; 
+}
+
+.ultima{
+    grid-column: 4/6;
+    background-image: url(../imagenes/fondo5.jpg);
+}

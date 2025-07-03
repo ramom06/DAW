@@ -1,0 +1,103 @@
+body {
+    background:rgba(241, 239, 239, 0.645);
+    margin: auto;
+}
+
+#container {
+    display: grid;
+    /* Grid de 2x3 */
+    /* 2 columnas: 1ª de 200px, 2ª ocupa el espacio restante */
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 0.75fr 0.25fr 5fr 1fr;
+    /*gap: 10px 20px*/ /*se pueden sustituir por esta linea */
+    height: 80%;
+}
+
+header { 	
+    grid-column: 1 / 3;
+    text-align: center;
+    color: blue; 
+    background-color: white; 
+}
+
+nav{
+    grid-area: 2/1/3/3;
+    background-color:green;
+    color: darkgoldenrod;
+}
+
+nav ul{
+    padding-left: 5px;
+}
+
+nav ul li{
+    text-decoration: none;
+    display: inline;
+    text-align: left;
+    background-color: lightgreen;
+}
+
+section{
+    display: grid;
+}
+
+article{
+    background-color:lightgreen;
+    align-items: center;
+}
+
+article h2{
+    text-align: center;
+}
+
+article div h4{
+    color: purple;
+    margin-left: 20px;
+    width: 90%;
+    margin: -100px auto 10px auto;
+}
+
+article .borde_azul{
+    background-color: white;
+    border: solid 2px rgb(9, 184, 243);
+    width: 90%;
+    margin: auto;
+}
+
+aside{
+    background-color: lightpink;
+}
+
+
+aside div{
+    margin: 40px auto;
+    width: 60%;
+    padding: 5px;
+    background-color: white;
+    border: solid 2px blue;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+aside h1{
+    text-align: center;
+    font-size: 200%;
+}
+
+aside div p{
+    margin: 30px 25px;
+}
+
+footer{
+    grid-area: 4/1/5/3;
+    background-color: lightblue;
+    text-align: center;
+}
+
+/* Web responsive */
+/*Cuando el tamaño de pantalla sea menor de 400px (o como máximo 400px) le quitamos
+la propiedad display: grid a la clase container que lo engloba todo, por display: block.*/
+@media (max-width: 600px) {
+    .container {
+    display: block;}
+}

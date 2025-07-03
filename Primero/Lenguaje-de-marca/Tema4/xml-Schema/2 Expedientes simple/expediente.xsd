@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="expedientes">
+    <xs:complexType>
+        <xs:sequence>
+        <xs:element name="expediente" minOccurs="1" maxOccurs="7">
+            <xs:complexType>
+                <xs:sequence>
+                <xs:element name="titulacion"></xs:element>
+                <xs:element name="estudiante"></xs:element>
+                <xs:element name="modulos">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="modulo" maxOccurs="unbounded" type="xs:string"></xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                </xs:sequence>
+                <xs:attribute name="codigo" type="xs:integer" use="required"></xs:attribute>
+            </xs:complexType>
+        </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+</xs:schema>

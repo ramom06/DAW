@@ -1,0 +1,34 @@
+{
+    "viajero":{
+        "nomApe":"Juan Perez",
+        "contacto":{
+            "email":"emailFalso",
+            "telefono":"123456789"
+        },
+        "ciudadOrigen":"Málaga",
+        "nombreAcompañantes":["Pedro","Maria","Luis"],
+        "gastos":3000,
+        "relacionDest":[
+            {
+                "ciudad":"Madrid",
+                "satisfecho":true,
+                "hotel":{
+                    "nombre":"Hotel Madrid",
+                    "estrellas":4,
+                    "precioNoche":100,
+                    "numNoches":5
+                }
+            },
+            {
+                "ciudad":"Barcelona",
+                "satisfecho":false,
+                "hotel":{
+                    "nombre":"Hotel catalunia",
+                    "estrellas":1,
+                    "precioNoche":25,
+                    "numNoches":1
+                }
+            }
+        ]
+    }
+}

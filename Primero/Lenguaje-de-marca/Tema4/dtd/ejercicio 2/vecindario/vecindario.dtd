@@ -1,0 +1,14 @@
+<!ELEMENT comunidad (vecinos+)>
+<!ELEMENT vecinos (cod_vecino?, nombre?, apellidos?, portal?, pisoyletra?, cod_cuenta_ord?)>
+<!ELEMENT cod_vecino (#PCDATA)>
+<!ATTLIST cod_vecino carg (presidente|vicepresidente|secretario|vocal) #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST nombre nom CDATA #REQUIRED>
+<!ELEMENT apellidos (#PCDATA)>
+<!ATTLIST apellidos apel CDATA #REQUIRED>
+<!ELEMENT portal (#PCDATA)>
+<!ATTLIST portal port CDATA #REQUIRED>
+<!ELEMENT pisoyletra (#PCDATA)>
+<!ATTLIST pisoyletra piso CDATA #REQUIRED>
+<!ELEMENT cod_cuenta_ord (#PCDATA)>
+<!ATTLIST cod_cuenta_ord ccc CDATA #REQUIRED>
